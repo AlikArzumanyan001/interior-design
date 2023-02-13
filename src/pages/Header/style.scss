@@ -1,0 +1,65 @@
+@import '../../assets/style/veriables.scss';
+
+.header-cont{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 8px 16px;
+    background-color: $colorRed;
+    top: 0;
+    .company-name-cont-padding{
+        padding: 16px;
+
+        .padding{
+            padding: 64px 16px 64px 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        .name-company{
+            font-family: $fontFamily;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: $fontSize;
+            color: $colorWhite;
+        }
+        }
+    }
+    
+    .buttons-cont{
+        padding: 16px;
+        .btn-cont-home{
+            
+             .btns{
+                display: block;
+                width: 100%;
+                padding: 10px 16px;
+                font-weight: 600;
+                font-family: $fontFamily;
+                font-size: 19px;
+                color: $colorWhite;
+                text-decoration: none;
+                
+                &:hover{
+                    color: #000;
+                    background-color: $colorWhite;
+                }
+            }
+            
+        }
+
+       
+    }
+    
+}
+.header-cont-2{
+    background-color: $colorLime;
+}
+.header-cont-3{
+    background-color: $colorPink;
+}
+.header-cont-4{
+    background-color: #06efd8
+}
+.header-cont-5{
+    background-color: #5c08da;
+}

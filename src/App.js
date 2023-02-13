@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/style/global.scss';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './pages/Footer';
+import Header from './pages/Header';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Designers from './pages/Designers';
+import Packages from './pages/Packages';
+import Contact from './pages/Contact';
+import useLoading from './hook/useLoading';
+import Loader from './loader';
 
 function App() {
+  const {loading} = useLoading()
+
+  if(loading){
+    return <Loader/>
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/services' element={<Services/>}/>
+      <Route path='/designers' element={<Designers/>}/>
+      <Route path='/packages' element={<Packages/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      </Routes>
+      <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;

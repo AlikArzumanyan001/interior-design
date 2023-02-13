@@ -1,0 +1,18 @@
+@import '../../assets/style/veriables.scss';
+.footer-cont{
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #f1f1f1;
+    .text-cont{
+        margin-right: 42px;
+        .footer-text{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: $fontFamily;
+            font-size: 16px;
+            text-align: right;
+        }
+    }
+    
+}

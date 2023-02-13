@@ -1,0 +1,38 @@
+@import '../../assets/style/veriables.scss';
+
+    .user{
+        width: 33%;
+        margin-left: 16px;
+        background-color: #f1f1f1;
+        .img-user{
+            width: 100%;
+            filter: grayscale(75%);
+        }
+        .user-cont{
+            padding-left: 16px;
+            padding-right: 16px;
+            
+            .name{
+                margin-top: 16px;
+                margin-bottom: 16px;
+                font-weight: 400;
+                font-size: 24px;
+                font-family: $fontFamily;
+                margin: 10px 0;
+            }
+            .info{
+                margin-top: 16px;
+                margin-bottom: 16px;
+                font-family: $fontFamily;
+                font-size: 16px;
+                opacity: 0.60;
+            }
+            .text{
+                margin-top: 16px;
+                margin-bottom: 16px;
+                font-family: $fontFamily;
+                font-size: 17px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }

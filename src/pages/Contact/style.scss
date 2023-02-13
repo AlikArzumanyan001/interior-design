@@ -1,0 +1,68 @@
+@import '../../assets/style/veriables.scss';
+.contact{
+    margin-left: 340px;
+    margin-right: 40px;
+    .contact-name-cont{
+        margin-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        .contact-name{
+            margin: 10px 0;
+            font-family: $fontFamily;
+            font-size: 48px;
+            color: $colorRed;
+        }
+        .hr{
+            margin: 20px 0;
+            width: 60px;
+            border: 5px solid red;
+            border-radius: 4px;
+        }
+    }
+    .contact-cont-text{
+        padding-left: 16px;
+        padding-right: 16px;
+        .text{
+            font-family: $fontFamily;
+            font-size: 17px;
+        }
+    }
+    .input-container{
+        font-family: $fontFamily;
+        font-size: 17px;
+        margin: 20px 0;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .input{
+            border: 1px solid #ccc;
+            padding: 11px;
+            width: 100%;
+        }
+        .input1{
+            border: 1px solid #ff0000;
+            padding: 11px;
+            width: 100%;
+        }
+    }
+    .btn-inp-cont{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 99px;
+        .input-button{
+            padding: 14px 26px;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+            font-family: $fontFamily;
+            font-size: 17px;
+            width: 100%;
+            background-color: $colorRed;
+            &:hover{
+                color: #000;
+                background-color: #ccc;
+            }
+        }
+    }
+    
+}

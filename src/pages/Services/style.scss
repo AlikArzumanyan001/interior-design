@@ -1,0 +1,38 @@
+@import '../../assets/style/veriables.scss';
+
+.services{
+    margin-left: 340px;
+    margin-right: 40px;
+    margin-bottom: 267px;
+    .services-name-cont{
+        margin-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        .services-name{
+            margin: 10px 0;
+            font-family: $fontFamily;
+            font-size: 48px;
+            color: $colorRed;
+        }
+        .hr{
+            margin: 20px 0;
+            width: 60px;
+            border: 5px solid red;
+            border-radius: 4px;
+        }
+    }
+    .serv-cont-text{
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        font-family: $fontFamily;
+    }
+    .serv-text{
+        line-height: 25px;
+        margin-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 17px;
+        font-family: $fontFamily;
+    }
+}

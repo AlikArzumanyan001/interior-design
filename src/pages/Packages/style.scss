@@ -1,0 +1,100 @@
+@import '../../assets/style/veriables.scss';
+.packages{
+    margin-left: 340px;
+    margin-right: 40px;
+    .packages-name-cont{
+        margin-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        .packages-name{
+            margin: 10px 0;
+            font-family: $fontFamily;
+            font-size: 48px;
+            color: $colorRed;
+        }
+        .hr{
+            margin: 20px 0;
+            width: 60px;
+            border: 5px solid red;
+            border-radius: 4px;
+        }
+        
+    }
+    .packages-text-cont{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 20px 0;
+        .text{
+            font-family: $fontFamily;
+            font-size: 17px;
+        }
+    }
+    .packages-container{
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 75px;
+        .basic-cont{
+            width: 48%;
+            
+            .pack-cont{
+                background-color: #f1f1f1;
+                text-align: center;
+                .container-pack-name{
+                    list-style-type: none;
+                    font-family: $fontFamily;
+                    .basic{
+                        font-size: 23px;
+                        color: $colorWhite;
+                        background-color: #616161;
+                        padding: 32px;
+                    }
+                    .pro{
+                        font-size: 23px;
+                        color: $colorWhite;
+                        background-color: $colorRed;
+                        padding: 32px;
+                    }
+                    .info{ 
+                        font-size: 17px;
+                        padding: 18px;
+                        border-bottom: 1px solid #ddd;
+                    }
+                    .span{
+                        opacity: 0.60;
+                    }
+                    .btn-cont{
+                        padding: 16px;
+                        .btn{
+                            border: none;
+                            cursor: pointer;
+                            padding: 12px 24px;
+                            background-color: $colorWhite;
+                            color: #000;
+                            font-family: $fontFamily;
+                            font-size: 16px;
+                            &:hover{
+                                color: $colorWhite;
+                                background-color: #000;
+                            }
+                        }
+                        .btn2{
+                            border: none;
+                            cursor: pointer;
+                            padding: 12px 24px;
+                            background-color: $colorRed;
+                            color: $colorWhite;
+                            font-family: $fontFamily;
+                            font-size: 16px;
+                            &:hover{
+                                color: $colorWhite;
+                                background-color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
